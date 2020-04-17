@@ -6,5 +6,6 @@ build:
   verbosity: minimal
 deploy:
 - provider: NuGet
+  artifact: '**\*.nupkg'
   api_key:
     secure: p47/8cBPm6QkPz8g+5DUp+LlzdbQstEJ78CZyM3C/RorpxLJItVuAH2rxWqDJVgk
