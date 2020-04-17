@@ -5,7 +5,6 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.0.1</Version>
     <PackageProjectUrl>https://github.com/mniak/Mniak.AspNetCore.Http</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mniak/Mniak.AspNetCore.Http</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Authors>mniak</Authors>
   </PropertyGroup>
@@ -24,6 +23,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Services.Abstractions\Mniak.AspNetCore.Http.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+  <!-- Source Link -->
+  <PropertyGroup>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
   </ItemGroup>
 
 </Project>
