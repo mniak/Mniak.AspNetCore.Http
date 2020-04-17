@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <PackageProjectUrl>https://github.com/mniak/Mniak.AspNetCore.Http</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mniak/Mniak.AspNetCore.Http</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>mniak</Authors>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' != 'netcoreapp3.1'">
