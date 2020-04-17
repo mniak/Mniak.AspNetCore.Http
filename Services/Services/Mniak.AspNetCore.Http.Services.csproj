@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Mniak.AspNetCore.Http.Services.Abstractions\Mniak.AspNetCore.Http.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Services.Abstractions\Mniak.AspNetCore.Http.Services.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

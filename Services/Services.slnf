@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "..\\AspNetCore.Http.sln",
+    "projects": [
+      "Services\\Services.Abstractions\\Mniak.AspNetCore.Http.Services.Abstractions.csproj",
+      "Services\\Services\\Mniak.AspNetCore.Http.Services.csproj"
+    ]
+  }
+}
