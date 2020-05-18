@@ -13,6 +13,6 @@ namespace Mniak.AspNetCore.Http.Internal
             this.httpContextAccessor = httpContextAccessor ?? throw new ArgumentNullException(nameof(httpContextAccessor));
         }
 
-        public T Service => (T)httpContextAccessor.HttpContext.RequestServices.GetService(typeof(T));
+        public T Service => (T)httpContextAccessor?.HttpContext?.RequestServices?.GetService(typeof(T));
     }
 }
